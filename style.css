@@ -210,11 +210,11 @@ nav ul li a{
     
 }
 .hero-section h2 span{
-    display: inline-block;
+    /* display: inline-block; */
      overflow: hidden;
     width: 19ch;
     white-space:nowrap;
-    border-right: 2px solid var(--main-color);
+    /* border-right: 2px solid var(--main-color); */
     animation: runletterhero  3s steps(19) forwards  0.5s infinite ;
 }
 
@@ -743,8 +743,8 @@ nav ul li a{
 .education-box-one h4 {
     position: absolute;
     text-align: center;
-    margin-top: 80px;
-    margin-left: 102px;
+    margin-top: 85px;
+    margin-left: 94px;
     font-size: 20px;
 }
 
@@ -771,18 +771,24 @@ nav ul li a{
     letter-spacing: 2%;
 }
 
+.education-box-one p{
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #cfcfcf;
+}
+
 .collage-name {
     margin-left: 50px !important;
 }
 
 .percent812 {
     margin-top: 90px !important;
-    margin-left: 110px !important;
+    margin-left: 95px !important;
 }
 
 .percent75 {
     margin-top: 90px !important;
-    margin-left: 120px !important;
+    margin-left: 95px !important;
 }
 
 
@@ -1694,4 +1700,84 @@ nav ul li a{
     margin-top: 100px;
 }
 
+}
+
+
+
+
+
+/* skil change */
+
+.skill-section {
+  padding: 80px 10%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 42px;
+  color: #21d4c1;
+  margin-bottom: 60px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  width: 280px;
+  min-height: 380px;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 22px;
+  padding: 30px 25px;
+  position: relative;
+  transition: 0.4s ease;
+  background: rgba(255,255,255,0.02);
+}
+
+.skill-card:hover {
+  transform: translateY(-12px);
+  border-color: #21d4c1;
+  box-shadow: 0 0 25px rgba(33,212,193,0.35);
+}
+
+.skill-number {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.15);
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-top: 40px;
+}
+
+.skill-title {
+  margin: 15px 0 20px;
+  font-size: 22px;
+  color: #21d4c1;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  font-size: 15px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  opacity: 0.9;
+}
+
+.skill-list li:last-child {
+  border-bottom: none;
 }
